@@ -1,0 +1,18 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configurações de IDE/Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs do PZ (se você gerar algum durante testes)
+*.log
+console.txt
+
+# Arquivos de backup do Notepad++ ou similares
+*.bak
+*.tmp
