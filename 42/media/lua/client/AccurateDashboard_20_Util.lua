@@ -2,11 +2,9 @@ local AD = AccurateDashboard
 local C = AD.Config
 
 function AD.localized(key, fallback)
-  local t = getText(key)
-  if not t or t == key then
-    return fallback
-  end
-  return t
+  local value = AD.L10N.T(key)
+  if value ~= nil then return value end
+  return fallback
 end
 
 function AD.nowMs()

@@ -35,7 +35,8 @@ AD.Config = {
   },
 
   hover = {
-    pad = 4,
+    language = auto,
+    pad = 10,
     mazdaIconPad = 8,
     mazdaLettersGap = 6,
   },
